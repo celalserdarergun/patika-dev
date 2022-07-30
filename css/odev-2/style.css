@@ -1,0 +1,82 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.logo {
+	margin: 0 auto;
+}
+
+.search-section {
+	margin: 0 auto;
+	background-color: #EEEEEE;
+	height: 78px;
+	width: 90%;
+	padding: 1px;
+}
+
+.search-box {
+	width: 261px;
+}
+
+a:active {
+    color: red;
+}
+
+p {
+	margin: 0;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid white;
+    height: 80px;
+    display: flex;
+}
+
+.border {
+    border: 1px solid #FFF;
+}
+
+.special-search {
+    background-color: #7EE5DA;
+    margin: 0 auto;
+    height: inherit;
+    width: 37%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 5px;
+}
+
+.about {
+    background-color: #70CCC2;
+    margin: auto;
+    height: inherit;
+    width: 22%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 5px;
+}
+
+.newsletter {
+    background-color: #62B3AA;
+    margin: auto;
+    height: inherit;
+    width: 41%;
+	padding-top: 5px;
+}
+
+.text-13 {
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
