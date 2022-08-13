@@ -1,0 +1,167 @@
+body {
+    min-width: 454px;
+    width: auto !important;
+    width: 1536px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin-top: 3px;
+    display: flex;
+    height: 60px;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+header>div {
+    margin-right: 20px;
+}
+
+header>div>a {
+    margin-left: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.appbutton {
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+    padding-bottom: 8px;
+}
+
+.profilepic {
+    width: 32px;
+    border-radius: 50%;
+}
+
+main {
+    margin-top: 50px;
+    text-align: center;
+}
+
+main>div {
+    padding: 1em 0;
+}
+
+
+.logo {
+    margin-top: 170px;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    margin: 0px auto;
+    width: 580px;
+    min-width: 400px;
+    border: solid;
+    border-color: rgb(209, 204, 204);
+    border-width: 1px;
+    border-radius: 25px;
+    height: 48px;
+}
+
+.searchbar:hover {
+    -webkit-box-shadow: 0px 0px 16px -2px rgba(34, 60, 80, 0.31);
+    -moz-box-shadow: 0px 0px 16px -2px rgba(34, 60, 80, 0.31);
+    box-shadow: 0px 0px 16px -2px rgba(34, 60, 80, 0.31);
+}
+
+.searchbar>input {
+    height: 45px;
+    min-width: 370px;
+    width: 420px;
+    border: none;
+    line-height: 24px;
+}
+
+.searchbar>input:focus {
+    outline: transparent;
+}
+
+.search-img {
+    display: inline-block;
+    width: 24px;
+    color: #9aa0a6;
+    fill: currentColor;
+    line-height: 24px;
+    padding-top: 12px;
+    margin-right: 80px;
+}
+
+button {
+    color: #202124;
+    ;
+    margin: 2px 4px;
+    padding: 0 16px;
+    height: 35px;
+    border-style: none;
+    background-color: #f8f9fa;
+    ;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    border: 1px solid #dadce0;
+    ;
+}
+
+.googleoffered {
+    color: #1a0dab;
+}
+
+footer {
+    background-color: #f2f2f2;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.text-footer {
+    color: #70757a
+}
+
+.footer-sec1 {
+    font-size: 15px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer-sec2 {
+    display: flex;
+    padding: 15px;
+    font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+    .footer-sec2 {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer-sec2 {
+        justify-content: space-between;
+    }
+}
+
+.footer-sec2>div>a {
+    display: inline-block;
+    padding: 0 15px;
+}
