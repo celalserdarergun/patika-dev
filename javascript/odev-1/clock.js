@@ -18,4 +18,4 @@ function showTime() {
 
 setInterval(() => {
 	domMyClock.innerText = showTime();
-}, 60);
+}, 1000);
