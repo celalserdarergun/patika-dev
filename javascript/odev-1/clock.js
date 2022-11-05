@@ -2,8 +2,9 @@ let userName = window.prompt("Adınızı Giriniz");
 const domNameSpan = document.getElementById("myName");
 const domMyClock = document.getElementById("myClock");
 
+console.log(userName)
 function setName(e) {
-	if (e == "")
+	if (e == "" || e == null)
 		e = "Ninja"
 	return domNameSpan.innerText = e;
 }
