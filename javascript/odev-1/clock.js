@@ -2,7 +2,6 @@ let userName = window.prompt("Adınızı Giriniz");
 const domNameSpan = document.getElementById("myName");
 const domMyClock = document.getElementById("myClock");
 
-console.log(userName)
 function setName(e) {
 	if (e == "" || e == null)
 		e = "Ninja"
@@ -14,7 +13,7 @@ setName(userName)
 function showTime() {
 	let day = new Date();
 	const days = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar"];
-	return (`${day.getHours()}:${('0' + day.getMinutes()).slice(-2)}:${('0' + day.getSeconds()).slice(-2)} ${days[day.getDate()]}`);
+	return (`${('0' + day.getHours()).slice(-2)}:${('0' + day.getMinutes()).slice(-2)}:${('0' + day.getSeconds()).slice(-2)} ${days[day.getDate()]}`);
 }
 
 setInterval(() => {
