@@ -9,3 +9,4 @@ Bu sistemi tasvir eden Class (Sınıf) diyagramını çiziniz.
 
 Not : Sınıflara ait nitelik ve davranışların belirtilmesine gerek yoktur.
 
+![uml drawio](https://github.com/celalserdarergun/patika-dev/assets/89193973/71222c70-4868-4b0b-906c-f68929f53310)
