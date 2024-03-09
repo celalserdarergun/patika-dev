@@ -15,4 +15,4 @@ Sistemin bu işlevleri yerine getirme mantığı, her gruplama için farklı ola
 
 Polimorfizm modelini kullanarak, yukarıda açıklanan durumu ele almak için bir sınıf diyagramı tasarlayın.
 
-![uml drawio]()
+![hayvan drawio](https://github.com/celalserdarergun/patika-dev/assets/89193973/93d5adce-7018-44da-98ce-ccc0a22e0e70)
